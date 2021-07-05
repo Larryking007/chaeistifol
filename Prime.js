@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*var pNum = prompt("Enter a number");
 //Prime Number code
 function primeNumber(pNum) {
@@ -32,6 +33,33 @@ for(; i < numS ; i++){
 var output = i + numS;
 };
 console.log(output);
+=======
+var pNum = prompt("Enter a number");
+//Prime Number code
+function primeNumber(pNum) {
+    
+    Number.parseFloat(pNum);
+var prime  = true;
+
+for(var i=2; i <= pNum/2; i++){
+
+        if (pNum % i == 0) {
+            prime = false;
+            break;
+        }
+     else{   
+         prime = true;
+    }
+}
+if (prime){
+    console.log(`${pNum} is a prime number`);
+}
+else {
+    console.log(`${pNum} is not a prime number`);
+}};
+
+primeNumber(pNum);
+>>>>>>> 1e8c0fcd47710a4d5de6692f643d26d4f908d24c
 =======
 var pNum = prompt("Enter a number");
 //Prime Number code

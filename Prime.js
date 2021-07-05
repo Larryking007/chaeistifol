@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*var pNum = prompt("Enter a number");
 //Prime Number code
 function primeNumber(pNum) {
@@ -33,7 +31,6 @@ for(; i < numS ; i++){
 var output = i + numS;
 };
 console.log(output);
-=======
 var pNum = prompt("Enter a number");
 //Prime Number code
 function primeNumber(pNum) {
@@ -59,8 +56,6 @@ else {
 }};
 
 primeNumber(pNum);
->>>>>>> 1e8c0fcd47710a4d5de6692f643d26d4f908d24c
-=======
 var pNum = prompt("Enter a number");
 //Prime Number code
 function primeNumber(pNum) {
@@ -86,4 +81,3 @@ else {
 }};
 
 primeNumber(pNum);
->>>>>>> 1e8c0fcd47710a4d5de6692f643d26d4f908d24c

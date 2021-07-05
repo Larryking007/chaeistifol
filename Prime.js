@@ -1,4 +1,4 @@
-var pNum = prompt("Enter a number");
+/*var pNum = prompt("Enter a number");
 //Prime Number code
 function primeNumber(pNum) {
     
@@ -21,5 +21,13 @@ if (prime){
 else {
     console.log(`${pNum} is not a prime number`);
 }};
+primeNumber(pNum);*/
 
-primeNumber(pNum);
+
+//Add sum of numbers
+var numS  = parseFloat(prompt("Enter a number"));
+i = new Array();
+for(; i < numS ; i++){
+var output = i + numS;
+};
+console.log(output);
